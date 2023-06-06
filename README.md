@@ -27,9 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space Traverler's Hub <a name="about-project"></a>
+# 📖 Vet clinic database <a name="about-project"></a>
 
-**Space Traverler's Hub** "In this project, I will use a relational database to create the initial data structure for a vet clinic. I will create a table to store animals' information, insert some data into it, and query it."
+**Vet clinic database** "In this project, I will use a relational database to create the initial data structure for a vet clinic. I will create a table to store animals' information, insert some data into it, and query it."
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -98,8 +98,6 @@ cd Math-Magicians
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
