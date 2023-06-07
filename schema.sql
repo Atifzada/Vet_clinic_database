@@ -10,3 +10,8 @@ CREATE TABLE
         neutered BOOLEAN,
         weight_kg DECIMAL
     );
+
+    -- Adding a column species of type string to your animals
+
+    ALTER TABLE animals
+ADD species  varchar(250);
