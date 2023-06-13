@@ -62,10 +62,11 @@ specializations(
 
 -- Create a "join table" called visits to handle this relationship, it should also keep track of the date of the visit.
 
-CREATE TABLE 
-visits(
-    animal_id INT REFERENCES animals(id),
-    vet_id INT REFERENCES vets(id),
-    visit_date DATE,
-    PRIMARY KEY (animal_id, vet_id,visit_date)
+create table visits (
+    id serial primary key,
+    animal_id int,
+    vet_id int,
+    visit_date date,
+    foreign key (animal_id) references animals(id),
+    foreign key (vet_id) references vets(id)
 );
